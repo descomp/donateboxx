@@ -1,0 +1,50 @@
+{
+  "name": "donatebox",
+  "version": "0.0.1",
+  "description": "charity site",
+  "main": "index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.3",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "proxy": "http://127.0.0.1:5000",
+  "scripts": {
+    "start": "react-scripts start --ignore client",
+    "start-backend-mac": "cd backend && source venv/bin/activate -u && flask run",
+    "start-backend-windows": "cd backend && .\\venv\\Scripts\\activate -u && flask run",
+    "backend": "cd backend && .\\venv\\Scripts\\activate -u && flask run",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "private": true,
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">1%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

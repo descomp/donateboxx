@@ -1,0 +1,5 @@
+.headers ON
+.mode csv
+CREATE TABLE users(username TEXT not null, encrypted_password TEXT not null, email TEXT not null, phone TEXT);
+-- INSERT INTO users VALUES('Bob', '1234', 'bob@test.com', null), ('Jane', '1234', 'jane@fake.org', '5551234567');
+.save backend/donatebox.db
